@@ -33,7 +33,7 @@ module CopyCarrierwaveFile
           set_file_for_local_storage
         when 'CarrierWave::Storage::Fog'
           set_file_for_remote_storage
-        when 'CarrierWave::Stroage::Qiniu'
+        when 'CarrierWave::Storage::Qiniu'
           set_file_for_remote_storage
         else
           raise UnknowStorage
